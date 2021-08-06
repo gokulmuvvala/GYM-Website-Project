@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="Author" content="Gokul kumar" />
+    <title>Gokul GYM Website</title>
+    <link rel="stylesheet" href="style.css" />
+     <!--Font style-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300&family=RocknRoll+One&display=swap" rel="stylesheet"> 
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,300&display=swap" rel="stylesheet"> 
+
+  </head>
+
+  <!--External CSS-->
+  <style>
+    body {
+      font-family: RocknRoll,sans-serif;
+      margin: 0px;
+      padding: 0px;
+      background: url("images/Main Bg.jpg");
+      background-position: absolute;
+      background-size: cover;
+      color: white;
+    }
+    .left {
+      font-family: Arial, Helvetica;
+      display: inline-block;
+      position: absolute;
+      left:20px;
+      top:3px;
+    }
+    .left img {
+      width: 100px;
+      height: 85px;
+    }
+    .left div{
+      line-height: 19px;
+      font-size: 26px;
+      text-align:center;
+    }
+    .mid {
+      display: block;
+      margin: 29px auto;
+      width: 36%;
+    }
+    .right {
+      position: absolute;
+      display: inline-block;
+      top: 34px;
+      right: 34px;
+    }
+
+    .navbar{
+      display: inline-block;
+    }
+
+    .navbar li{
+      display:inline-block;
+      font-size: 20px;
+    }
+    .navbar li a{
+      color:white;
+      text-decoration: none;
+      padding: 34px 23px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active{
+      text-decoration:underline;
+      color:grey;
+    }
+    
+    .btn {
+      font-family: 'Heebo', sans-serif;
+        background-color:transparent;
+        color: white;
+        cursor:pointer;
+        padding: 4px 5px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 20px;
+    }
+    .btn:hover{
+      background-color:lightslategray;
+    }
+  
+    .form-group input{
+      text-align: center;
+        display: block;
+        width: 508px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 8px;
+        background-color:transparent; 
+        color: white;
+    }
+ 
+    .container {
+        border: 2px solid white;
+        margin: 106px 80px;
+        padding: 5px;
+        width: 43%;
+        border-radius: 28px;
+        font-family: 'RocknRoll One', sans-serif;
+    }
+    .container h1 {
+        text-align: center;
+    }
+
+    .form-group input {
+        font-family: 'Baloo Bhai', cursive;
+        text-align: center;
+        display: block;
+        width: 508px;
+        padding: 1px;
+        border: 2px solid white;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 8px;
+    }
+    .container button {
+      display:block;
+      width: 74px;
+      margin: 20px auto;
+    }
+
+    footer{
+      font-family: 'Source Code Pro', monospace;
+        padding: 2px;
+        font-size: 10px;
+        text-align:center;
+        background: #3C415C;
+      }
+  </style>
+  <body>
+    <header class="header">
+      <!--Left box for logo-->
+      <div class="left">
+        <img src="images/Logo.png" alt="Logo of GYM" />
+        <div>G1 GYM</div>
+      </div>
+      <!--Mid box for navbar-->
+      <div class="mid">
+      <ul class="navbar">
+      <li><a href="#Home"class="active" >Home</a></li>
+      <li><a href="About.html">About Us</a></li>
+      <li><a href="Gallery.html">Gallery</a></li>
+      <li><a href="#Contact">Contact Us</a></li>
+      </ul>
+      </div>
+      <!--Right box for buttons-->
+      <div class="right">
+      <button class="btn">Call us Now</button>
+      <button class="btn">Email Us</button>
+      </div>
+
+    </header>
+
+    <div class="container">
+
+      <h1>Join the best gym in Andhra Pradesh</h1>
+
+      <form action="noaction.php">
+        <div class="form-group">
+          <input class="form-group" type="text" name="" placeholder="Enter your First Name" />
+        </div>
+        <div class="form-group">
+          <input class="form-group"type="text" name="" placeholder="Enter your Last Name" />
+        </div>
+
+        <div class="form-group">
+          <input class="form-group"type="text" name="" placeholder="Enter your Age" />
+        </div>
+
+        <div class="form-group">
+          <input class="form-group"type="text" name="" placeholder="Enter your Gender" />
+        </div>
+
+        <div class="form-group">
+          <input class="form-group"type="text" name="" placeholder="Enter your Email id" />
+        </div>
+
+        <div class="form-group">
+          <input class="form-group" type="text" name="" placeholder="Enter your Mobile Number" />
+        </div>
+        <button class="btn">Submit</button>
+      </form>
+    </div>
+
+<hr>
+    <div id="Contact">
+      <h3>Contact Us</h4>
+      <address>
+        Address:- 52-64-55B,<br/>
+MG Road, Near PVP Mall, Vijayawada- 540093<br/>
+Phone: +91 1234567891<br/>
+Email: WeCare@G1Gym.in<br/>
+<br/>
+<br/>
+      </address>
+    </div>
+    <footer>
+      This is a sample website (2021).
+    </footer>
+  </body>
+</html>
